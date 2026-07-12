@@ -29,4 +29,6 @@ Dataset ini disediakan untuk tujuan riset/edukasi. Jika Anda menemukan data yang
 
 ## Lisensi
 
-Belum ditentukan — tambahkan `LICENSE` sesuai kebutuhan (mis. MIT untuk kode, CC-BY-NC untuk data).
+- **Kode** (notebook, script): [MIT License](LICENSE)
+- **Dataset**: Disediakan untuk tujuan riset/edukasi. Konten tweet adalah hak cipta masing-masing pengguna asal;
+  dataset ini bukan klaim kepemilikan atas isi tweet, hanya kompilasi untuk keperluan penelitian akademik.
