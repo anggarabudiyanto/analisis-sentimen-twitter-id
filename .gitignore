@@ -1,0 +1,28 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- Environment & Secrets ---
+.env
+.env.*
+*.key
+credentials.json
+secrets.json
+
+# --- Model artifacts (biasanya besar, di-generate ulang saat training) ---
+*.keras
+*.h5
+*.joblib
+*.pkl
+model_lstm_tuned.keras
+tokenizer_lstm.joblib
+
+# --- Data mentah scraping (belum di-review, jangan ikut ter-commit tidak sengaja) ---
+tweets-data/
+*.csv.bak
+
+# --- OS / Editor ---
+.DS_Store
+.vscode/

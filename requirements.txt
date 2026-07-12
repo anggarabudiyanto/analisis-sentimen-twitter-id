@@ -1,0 +1,23 @@
+# requirements.txt
+# Dependencies untuk pipeline: 01_scraping -> 02_preprocessing_labeling -> 03_training_inference
+# Catatan: google-colab tidak disertakan karena hanya tersedia bawaan di lingkungan Google Colab.
+# Catatan: cudf-cu12 dan cuml-cu12 (RAPIDS, untuk SVM/RF versi GPU) tidak disertakan di sini
+# karena butuh --extra-index-url khusus, di-install terpisah di cell pertama notebook.
+
+# --- Data handling ---
+pandas>=2.0.0
+numpy>=1.26.0
+
+# --- 02_preprocessing_labeling.ipynb ---
+Sastrawi>=1.0.1
+nltk>=3.8.1
+emoji>=2.10.0
+tqdm>=4.66.0
+
+# --- 03_training_inference.ipynb ---
+scikit-learn>=1.4.0
+gensim>=4.3.2
+matplotlib>=3.8.0
+seaborn>=0.13.0
+joblib>=1.3.2
+tensorflow>=2.15.0
